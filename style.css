@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix-width{
+    
+    
+    width: 500px;
+    padding-bottom: 15px;
+    /*border: 1px solid black;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.text-right{
+    text-align: right;
+}
+.color span{
+    color: rgb(255, 166, 0);
+}
+.display-color{
+    height: 70px;
+    background: rgb(129, 127, 127);
+}
+.mt-top-10px{
+    margin-top: 10px;
+}
+.text-center input{
+    width: 44.3%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 4px ;
+    padding-bottom: 4px;
+    
+    padding-right: 5px;
+}
+.input-text-fild-fix-width1{
+    padding-left: 23px;
+    text-transform: uppercase;
+}
+.input-text-fild-fix-width{
+    width: 100%;
+    padding: 5px 8px;
+}
+.input-range input{
+    width: 32.5%;
+   
+}
+.text-center011 span{
+ position: absolute;
+ display: flex;
+ margin-top: 10px;
+ margin-left: 20px;
+ background: rgb(187, 186, 186);
+ padding: 6px 10px;
+ border-radius: 4px 0 0 4px;
+ 
+}
+.bottom-margin-fix {
+    margin-bottom: 10px;
+}
+
+
+.meimDiv {
+    margin-top: 100px;
+}
+
+.input-padding-fix{
+    margin-left: 5px;
+}
+
+
+.errorTost {
+    color: red;
+    /*display: none;*/
+    height: 0;
+    opacity: 0;
+    visibility: hidden ;
+  /*  visibility: visible;*/
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+.toast-message {
+	position: fixed;
+	z-index: 999;
+	top: 2rem;
+	right: 2rem;
+	background-color: rgb(19, 201, 110);
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 0.25rem;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.toast-message1 {
+	position: fixed;
+	z-index: 999;
+	top: 2rem;
+	right: 2rem;
+	background-color: rgb(19, 201, 110);
+	color: rgb(255, 0, 0);
+	border: 1px solid #fff;
+	border-radius: 0.25rem;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.toast-message-slide-in {
+	animation: toast-animation-in 0.5s ease-in;
+}
+
+.toast-message-slide-out {
+	animation: toast-animation-out 0.5s ease-in;
+}
+
+@keyframes toast-animation-in {
+	from {
+		transform: translateX(200px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes toast-animation-out {
+	from {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+	to {
+		transform: translateX(200px);
+		opacity: 0;
+	}
+}
+
+
+.text-right lebel{
+   user-select: none;
+}
