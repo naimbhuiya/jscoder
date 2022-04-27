@@ -138,19 +138,27 @@ function mein (){
     var color = ganarateRandomColor()
          
 
-          var hex = `#${color.red.toString(16)}${color.green.toString(16)}${color.blue.toString(16)}`
+         
+       
+    var hex = `#${color.red.toString(16)}${color.green.toString(16)}${color.blue.toString(16)}`
 
           
-        //  var colorDisplay = document.getElementById('colorDisplay')
-          colorDisplay.style.background = hex
-          var hex0 = `${color.red.toString(16)}${color.green.toString(16)}${color.blue.toString(16)}`
+    //  var colorDisplay = document.getElementById('colorDisplay')
+      colorDisplay.style.background = hex
+      var hex0 = `${color.red.toString(16)}${color.green.toString(16)}${color.blue.toString(16)}`
 
-         
-         hexValue.value = hex0
-         
-         
-          var update =    domUpdatefn(color)
-       
+     
+      hexValue.value = hex0
+      
+
+          if(isValidHex(hexValue.value)){
+            
+            errorTost.style.opacity = 0;
+            errorTost.style.visibility = 'hidden';
+            errorTost.style.height = 0 ;
+            var update =    domUpdatefn(color)
+      
+          }
 
 
  })
